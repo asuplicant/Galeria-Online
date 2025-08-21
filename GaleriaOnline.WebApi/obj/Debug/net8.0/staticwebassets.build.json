@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QSxe32Nx5kbctiX9GToTRA4/Ccps9AwKiBXh2lsc+d8=",
+  "Hash": "G672dUDHAd2tB4Q6Mr4PWCpvqY15yCITQXvD1hf1rQ0=",
   "Source": "GaleriaOnline.WebApi",
   "BasePath": "_content/GaleriaOnline.WebApi",
   "Mode": "Default",
@@ -16,27 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\imagens\\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png",
-      "SourceId": "GaleriaOnline.WebApi",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\",
-      "BasePath": "_content/GaleriaOnline.WebApi",
-      "RelativePath": "imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vw4x8g9cb7",
-      "Integrity": "4ZBX+3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png"
-    },
     {
       "Identity": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\imagens\\cb9c420e-0c80-4a28-96fa-32fb36b12187.png",
       "SourceId": "GaleriaOnline.WebApi",
@@ -60,88 +39,6 @@
     }
   ],
   "Endpoints": [
-    {
-      "Route": "imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png",
-      "AssetFile": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\imagens\\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4ZBX+3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 19 Aug 2025 18:54:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4ZBX+3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw="
-        }
-      ]
-    },
-    {
-      "Route": "imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.vw4x8g9cb7.png",
-      "AssetFile": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\imagens\\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4ZBX+3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 19 Aug 2025 18:54:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vw4x8g9cb7"
-        },
-        {
-          "Name": "label",
-          "Value": "imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4ZBX+3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw="
-        }
-      ]
-    },
     {
       "Route": "imagens/cb9c420e-0c80-4a28-96fa-32fb36b12187.png",
       "AssetFile": "C:\\Users\\52233446852\\Desktop\\Galeria Online\\GaleriaOnline.WebApi\\wwwroot\\imagens\\cb9c420e-0c80-4a28-96fa-32fb36b12187.png",

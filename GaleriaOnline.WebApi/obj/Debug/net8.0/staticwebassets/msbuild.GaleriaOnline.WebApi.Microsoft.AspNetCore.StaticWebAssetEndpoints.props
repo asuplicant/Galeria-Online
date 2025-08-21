@@ -1,17 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4ZBX\u002B3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6140"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224ZBX\u002B3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 18:54:25 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.vw4x8g9cb7.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vw4x8g9cb7"},{"Name":"integrity","Value":"sha256-4ZBX\u002B3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw="},{"Name":"label","Value":"_content/GaleriaOnline.WebApi/imagens/95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6140"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224ZBX\u002B3UsDoaj9In0omVz9KS0WtuDo1eNMvff5Kmwttw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 18:54:25 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/cb9c420e-0c80-4a28-96fa-32fb36b12187.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\cb9c420e-0c80-4a28-96fa-32fb36b12187.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

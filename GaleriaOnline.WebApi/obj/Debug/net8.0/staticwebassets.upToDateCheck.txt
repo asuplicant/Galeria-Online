@@ -1,2 +1,1 @@
-wwwroot\imagens\95e2ec9b-7d97-43cd-924c-0986cfbb4ede.png
 wwwroot\imagens\cb9c420e-0c80-4a28-96fa-32fb36b12187.png
