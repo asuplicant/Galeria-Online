@@ -53,21 +53,21 @@ export const Galeria = () => {
     }
 
     // Editar Cards.
-    async function editarCard(id, nomeAntigo) {
-        try {
-            const novoNome = prompt("Digite o novo nome da imagem: ", nomeAntigo);
+    function editarCard(id, nomeAntigo) {
+       
+            const novoNome = prompt("Digite o novo nome da imagem:", nomeAntigo);
 
             const inputArquivo = document.createElement("input");
             inputArquivo.type = "file";
-            // Aceita imagens INDEPENDENTE das extensões.
             inputArquivo.accept = "image/*";
+            //<input>= "file" accepet="image/*"</input>
 
-            // Define o que aconrece quando o usuário selecionar um arquivo.
-            inputArquivo.onChange = async (e) => {
-                const novoArquivo = e.target.file[0];
+            //Define o que acontece quando o usuario selecionar um arquivo
+            inputArquivo.onchange = async (e) => {
+                const novoArquivo = e.target.files[0];
                 const formData = new FormData();
-
-                // Adicionar o novo nome no formData:
+                
+                //Adicionar o novo nome no formData:
                 formData.append("Nome", novoNome);
                 formData.append("Arquivo", novoArquivo);
 
@@ -78,19 +78,19 @@ export const Galeria = () => {
                                 "Content-Type": "multipart/form-data"
                             }
                         })
-                        alert("Eba, deu certo!")
+                        
+                        alert("Imagem alterada.")
                         listarCards();
                     } catch (error) {
-                        alert("Não foi possível editar o card.");
+                        alert("Não foi possivel alterar o card !")
                         console.error(error);
-                    };
-
+                    }
+                    
                 }
             };
-        } catch (error) {
-            alert("Não foi possível editar o card.")
+            inputArquivo.click();
+
         }
-    }
 
     // Excluir Cards.
     async function excluirCard(id) {

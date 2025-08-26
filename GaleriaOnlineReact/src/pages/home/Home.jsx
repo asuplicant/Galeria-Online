@@ -12,7 +12,7 @@ export const Home = () => {
     return (
         <>
             <div className="container">
-                <h2>Bem-vindo a</h2>
+                <h2>Bem-vindo à</h2>
                 <h1>Galeria Online</h1>
                 <Botao nomeBotao="Entrar" funcaoDoBotao={navegarParaGaleria}/>
             </div>
