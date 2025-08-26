@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    /* o vw serve para preencher toda tela de exibição, ou seja toda a tela de vizualização, a famosa viewport em largura e o vh para */
+
+    display: flex;
+    /* vou colocar o display como flex para ele deixar tudo que tem dentro mais flexível, não dando tanto trabalho */
+
+    flex-direction: column;
+    /* coloquei a direção do flex como coluna porque fica elemento em baixo de elemento */
+
+    justify-content: center;
+    /* essa parte centralizou todos os itens verticalmente */
+
+    align-items: center;
+    /* esse centralizou na horizontal */
+
+    gap: 50px;
+    /* aqui eu vou dar um gap para dar espaçamento em todos os elementos */
+
+}
+
+h2 {
+    font-size: 25px;
+    color: #577c8e;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #577c8e;
+
+}
+
+@media screen and (max-width: 765px) {
+    h1 {
+        font-size: 40px;
+    }
+}
